@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\img">
+      <UniqueIdentifier>{05c69010-569d-491d-a84d-9be01b550ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\snd">
+      <UniqueIdentifier>{78a8a828-6cd3-42ec-a2e7-bd9d6067d297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\img\char">
+      <UniqueIdentifier>{2f4cb12a-c865-45cf-9f47-711ae2b4e7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\img\bullet">
+      <UniqueIdentifier>{7b1ac584-7001-44dc-a4c5-c370f4fd0630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\img\effect">
+      <UniqueIdentifier>{4deb236f-bddc-4b20-9042-3e9620cb37aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ドキュメント ファイル">
+      <UniqueIdentifier>{35d3aaf4-82a5-4bd4-af2c-22307197b470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\csv">
+      <UniqueIdentifier>{1e7b1001-3191-448e-9211-05bad2de353a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Back.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Back.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GV.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\img\char\Reimudot.png">
+      <Filter>リソース ファイル\img\char</Filter>
+    </Image>
+    <Image Include="assets\img\bullet\bullet_p.png">
+      <Filter>リソース ファイル\img\bullet</Filter>
+    </Image>
+    <Image Include="assets\img\bullet\bullet00.png">
+      <Filter>リソース ファイル\img\bullet</Filter>
+    </Image>
+    <Image Include="assets\img\bullet\bullet01.png">
+      <Filter>リソース ファイル\img\bullet</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore">
+      <Filter>ドキュメント ファイル</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>ドキュメント ファイル</Filter>
+    </None>
+    <None Include="assets\csv\Enemy00.csv">
+      <Filter>リソース ファイル\csv</Filter>
+    </None>
+  </ItemGroup>
+</Project>
